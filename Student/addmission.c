@@ -28,7 +28,7 @@ int main (){
         printf("3.Swahili :");
         scanf("%f", &subject3);
 
-        average = (subject1 + subject2 + subject3)/3.0;
+        average = (subject1 + subject2 + subject3)/3.0; //finding average
 
         if(average <= 39){
             grade = 'F';
@@ -66,5 +66,5 @@ int main (){
         }
     } 
 
-    return 0;
+    return 0; 
 }
