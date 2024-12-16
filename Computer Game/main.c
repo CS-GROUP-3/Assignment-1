@@ -7,8 +7,10 @@ int main()
     int rounds, score = 0, secret_num, lucky_num;
     srand(time(NULL));
     secret_num = rand() % 10 + 1;
+    // Prompt user to input rounds they'll play
     printf("Enter the number of rounds you want to play: ");
     scanf("%d", &rounds);
+    
     while(rounds > 0){
         printf("Enter your lucky number: ");
         scanf("%d", &lucky_num);
