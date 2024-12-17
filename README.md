@@ -10,3 +10,4 @@ The group involves the following people:
 - Prudence
 - Annette
 - Charles Kaguchia
+- Salem
